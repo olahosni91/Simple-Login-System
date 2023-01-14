@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Profile</title>
+        <link rel="stylesheet" href="bootstrap.min.css" >
+    </head>
+    <body style="background-color: #24353f;" onload="profilePage()">
+        <nav class=" shadow-lg mb-5 navbar navbar-light bg-transparent">
+            <a class="navbar-brand text-white-50"><h3>Smart Login</h3></a>
+            <form class="form-inline">
+                <button class="btn btn-outline-warning my-2 my-sm-0" ><a style="text-decoration: none;" class="text-white" href="login.html" onclick="logout()">Logout</a></button>
+            </form>
+        </nav>
+        <div class="container shadow-lg text-center w-75  pb-4 mt-5  text-light rounded">
+            <div class="container mb-5 text-info" id="userMessage">
+            </div>
+        </div>
+
+        <script src="jquery-3.0.0.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body style="background-color:#24353f;" onmousedown="hideLogin()" >
+    <div class="shadow-lg container text-center w-75 m-auto text-light rounded">
+        <div class=" container p-4 my-4">
+            <h2 class="m-3 text-info">Smart Login System</h2>
+        </div>
+        <div class="container group mb-5">
+            <input type="text" id="userEmail" class="bg-transparent text-white form-control my-3 " placeholder="Enter your email">
+            <input type="password" id="userPassword" class="bg-transparent text-white form-control my-3" placeholder="Enter your password">
+            <div id="userComment"></div>
+            <button onclick="Login()"id="profilePage" class="btn btn-outline-info w-100 mb-3">Login</button>
+            <div class="pb-4"><p>Don't have an account ? <a class="text-light" href="sign up.html">Sign Up</a></p></div>
+        
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
